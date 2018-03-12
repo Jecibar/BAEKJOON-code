@@ -1,3 +1,5 @@
+package rule;
+
 import java.util.Scanner;
 
 public class CainCalendar {
