@@ -29,8 +29,6 @@ public class Deque05430 {
 
             int orderLength = order.length();
             for (int j = 0; j < orderLength; j++) {
-                Deque<String> tempQueue1 = new LinkedList<String>();
-                Deque<String> tempQueue2 = new LinkedList<String>();
                 if (order.charAt(j) == 'R') {
                     isDescending = !isDescending;
                 } else if (order.charAt(j) == 'D') {
