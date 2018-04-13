@@ -8,8 +8,6 @@ public class OneMaker {
         int inputNumber = scanner.nextInt();
         int[] result = new int[inputNumber + 1];
 
-        result[0] = result[1] = 0;
-
         for (int i = 2; i <= inputNumber; i++) {
             result[i] = result[i - 1] + 1;
             if (i % 2 == 0) {
